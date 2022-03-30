@@ -1,6 +1,6 @@
-SEND 'Enter our height (in metres)' TO DISPLAY
+SEND 'Enter your height (in metres)' TO DISPLAY
 RECIEVE height FROM KEYBOARD
-SEND 'Enter our weight (in kilograms)' TO DISPLAY
+SEND 'Enter your weight (in kilograms)' TO DISPLAY
 RECIEVE weight FROM KEYBOARD
 SET bmi TO weight / (height^2)
 SEND 'Your bmi is ' + bmi TO DISPLAY
